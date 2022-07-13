@@ -23,7 +23,7 @@ public class QueryProcessor {
                 if (query.charAt(15 + i) != '%'){
                     tmpa.append(query.charAt(15 + i));
                 } else {
-                    tmpPointer = 14 + i;
+                    tmpPointer = 24 + i;
                     break;
                 }
             }
